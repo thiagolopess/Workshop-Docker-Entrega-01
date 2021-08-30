@@ -71,7 +71,7 @@ services:
       - users-service-db
       - chat-service-db
     ports:
-      - "7300:7300"
+      - "7300:80"
 volumes:
   chat-app-modules: {}
   users-db: {}
